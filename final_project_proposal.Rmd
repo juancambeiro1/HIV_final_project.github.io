@@ -1,0 +1,25 @@
+---
+title: "Final Project Proposal"
+date: "2022-11-07"
+output: github_document
+---
+
+## Group members
+* Juan Cambeiro (jc5313)
+* Jiaxin Wu (jw4007) 
+* Lucie Liping (ll3407)
+* Thirsten Stockton (tjs2193)
+* Kiran Kui ()
+
+## Tentative project title
+" "
+
+## Motivation
+
+## Intended final products
+
+## Anticipated data sources
+
+## Planned analyses/visualizations/coding challenges
+
+## Timeline
