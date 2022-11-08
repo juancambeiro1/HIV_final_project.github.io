@@ -6,9 +6,9 @@ Final Project Proposal
 
 -   Juan Cambeiro (jc5313)
 -   Jiaxin Wu (jw4007)
--   Lucie Liping (ll3407)
+-   Liping Lu (ll3407)
 -   Thirsten Stockton (tjs2193)
--   Kiran Kui ()
+-   Kiran Kui (yk2959)
 
 ## Tentative project title
 
