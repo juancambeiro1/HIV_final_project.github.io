@@ -1,6 +1,6 @@
 ---
 title: "Final Project Proposal"
-date: "2022-11-07"
+date: "2022-11-12"
 output: github_document
 ---
 
@@ -12,14 +12,50 @@ output: github_document
 * Kiran Kui (yk2959)
 
 ## Tentative project title
-" "
+"2022 NYC Monkeypox Trends"
 
 ## Motivation
+As the world is still reeling from the impacts of COVID-19, a new virus, monkeypox, has emerged that threatens public health across the world. In June 2022, the first case of monkeypox was detected in New York City and has been spreading rapidly across the five boroughs. Symptoms of monkeypox include fever, chills, and a characteristic rash. Monkeypox may wreak devastating impacts on the already strained NYC healthcare systems. It is therefore important and timely to study trends in monkeypox cases, both in the NYC population as well as stratified by sociodemographic variables to determine communities who are most impacted by the disease. Furthermore, it is important to determine the predictors of monkeypox cases to develop targeted policies and legislation that can prevent or slow the spread of monkeypox. Early evidence suggests that monkeypox trends are congruent with that of HIV trends, and it is thus pivotal to examine if such trends exist in the NYC context. 
 
 ## Intended final products
+In order to fully assess the impact of monkeypox in New York City, several final products will be created. First, we will create a map showing the geographic distribution of monkeypox by borough and by zip code. Next, we will create time trends assessing both vaccinations and cases over time. (We will also visually inspect the relationship between vaccination trends and monkeypox cases.) Finally, we will do an analysis assessing important risk factors associated with monkeypox, as well as with HIV. Bar charts will be created to visually show these prevalence differences.  All figures will be created in plotly in order to increase interactivity. 
 
 ## Anticipated data sources
+We plan to combine a complex set of open datasets from the following websites:
+
+* NYC Monkeypox (Orthopoxvirus) Data from [NYC Department of Health and Mental Hygiene (DOHMH)](https://github.com/nychealth/monkeypox-data). 
+
+* ACS 2016-2020 five-year census data for demographics (age, sex, race, education) and incomes (total person income, total family income) from [IPUMS](https://usa.ipums.org/usa-action/variables/group?id=demog#) 
+
+* HIV/AIDS Diagnoses by Neighborhood, Age Group, and Race/Ethnicity [NYC Open Data](https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Age-Group-and-R/dxnu-p2qd) 
+
+* HIV/AIDS Diagnoses by Neighborhood, Sex, and Race/Ethnicity [NYC Open Data](https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Sex-and-Race-Et/ykvb-493p)
+
 
 ## Planned analyses/visualizations/coding challenges
+Planned analyses: 
+
+* Regression model investigating the association between monkeypox cases and demographics characteristics with possible interaction of HIV casses.
+
+Visualizations:
+
+* Monkeypox cases vs. Monkeypox vaccinations over time (scatter plots)
+
+* Monkeypox cases stratified by demographics (race, income, sexual orientation, sex, number of partners, etc.) (bar chats)
+
+* Monkeypox vaccinations stratified by demographics (race, income, sexual orientation, sex, number of partners, etc.) (bar chats)
+
+* Monkeypox cases vs. HIV cases over time (scatter plots) geographic distribution of cases (map).
+
+Coding challenges:
+
+* Constructing a map combining the zip code level data and the community-district level data to show the disease outbreak location overtime. 
+
 
 ## Timeline
+* 11/15-11/18: Project Review Meeting
+* 11/19-11/30: Merge and do exploratory analysis of monkeypox case, monkeypox vaccine, demographics, and HIV datasets
+* 12/1-12/5: Analysis/visualization
+* 12/6-12/9: Construct report and generate webpage/screencast
+* 12/10: Finishing touches, report due
+* 12/15: "In class" discussion of projects
