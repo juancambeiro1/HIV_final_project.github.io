@@ -4,11 +4,11 @@ Final Project Proposal
 
 ## Group members
 
--   Juan Cambeiro (jc5313)
--   Jiaxin Wu (jw4007)
--   Liping Lu (ll3407)
--   Thirsten Stockton (tjs2193)
--   Kiran Kui (yk2959)
+- Juan Cambeiro (jc5313)
+- Jiaxin Wu (jw4007)
+- Liping Lu (ll3407)
+- Thirsten Stockton (tjs2193)
+- Kiran Kui (yk2959)
 
 ## Tentative project title
 
@@ -50,56 +50,53 @@ interactivity.
 We plan to combine a complex set of open datasets from the following
 websites:
 
--   NYC Monkeypox (Orthopoxvirus) Data from [NYC Department of Health
-    and Mental Hygiene
-    (DOHMH)](https://github.com/nychealth/monkeypox-data).
+- NYC Monkeypox (Orthopoxvirus) Data from [NYC Department of Health and
+  Mental Hygiene (DOHMH)](https://github.com/nychealth/monkeypox-data).
 
--   ACS 2016-2020 five-year census data for demographics (age, sex,
-    race, education) and incomes (total person income, total family
-    income) from
-    [IPUMS](https://usa.ipums.org/usa-action/variables/group?id=demog#)
+- ACS 2016-2020 five-year census data for demographics (age, sex, race,
+  education) and incomes (total person income, total family income) from
+  [IPUMS](https://usa.ipums.org/usa-action/variables/group?id=demog#)
 
--   HIV/AIDS Diagnoses by Neighborhood, Age Group, and Race/Ethnicity
-    [NYC Open
-    Data](https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Age-Group-and-R/dxnu-p2qd)
+- HIV/AIDS Diagnoses by Neighborhood, Age Group, and Race/Ethnicity [NYC
+  Open
+  Data](https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Age-Group-and-R/dxnu-p2qd)
 
--   HIV/AIDS Diagnoses by Neighborhood, Sex, and Race/Ethnicity [NYC
-    Open
-    Data](https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Sex-and-Race-Et/ykvb-493p)
+- HIV/AIDS Diagnoses by Neighborhood, Sex, and Race/Ethnicity [NYC Open
+  Data](https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Sex-and-Race-Et/ykvb-493p)
 
 ## Planned analyses/visualizations/coding challenges
 
 Planned analyses:
 
--   Regression model investigating the association between monkeypox
-    cases and demographics characteristics with possible interaction of
-    HIV casses.
+- Regression model investigating the association between monkeypox cases
+  and demographics characteristics with possible interaction of HIV
+  casses.
 
 Visualizations:
 
--   Monkeypox cases vs. Monkeypox vaccinations over time (scatter plots)
+- Monkeypox cases vs. Monkeypox vaccinations over time (scatter plots)
 
--   Monkeypox cases stratified by demographics (race, income, sexual
-    orientation, sex, number of partners, etc.) (bar chats)
+- Monkeypox cases stratified by demographics (race, income, sexual
+  orientation, sex, number of partners, etc.) (bar chats)
 
--   Monkeypox vaccinations stratified by demographics (race, income,
-    sexual orientation, sex, number of partners, etc.) (bar chats)
+- Monkeypox vaccinations stratified by demographics (race, income,
+  sexual orientation, sex, number of partners, etc.) (bar chats)
 
--   Monkeypox cases vs. HIV cases over time (scatter plots) geographic
-    distribution of cases (map).
+- Monkeypox cases vs. HIV cases over time (scatter plots) geographic
+  distribution of cases (map).
 
 Coding challenges:
 
--   Constructing a map combining the zip code level data and the
-    community-district level data to show the disease outbreak location
-    overtime.
+- Constructing a map combining the zip code level data and the
+  community-district level data to show the disease outbreak location
+  overtime.
 
 ## Timeline
 
--   11/15-11/18: Project Review Meeting
--   11/19-11/30: Merge and do exploratory analysis of monkeypox case,
-    monkeypox vaccine, demographics, and HIV datasets
--   12/1-12/5: Analysis/visualization
--   12/6-12/9: Construct report and generate webpage/screencast
--   12/10: Finishing touches, report due
--   12/15: “In class” discussion of projects
+- 11/15-11/18: Project Review Meeting
+- 11/19-11/30: Merge and do exploratory analysis of monkeypox case,
+  monkeypox vaccine, demographics, and HIV datasets
+- 12/1-12/5: Analysis/visualization
+- 12/6-12/9: Construct report and generate webpage/screencast
+- 12/10: Finishing touches, report due
+- 12/15: “In class” discussion of projects
