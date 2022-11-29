@@ -48,7 +48,7 @@ websites:
 
 - HIV/AIDS deaths data by country 1990-2019, by sex and by age group,
   from the [2019 Global Burden of Disease
-  Study](https://www.healthdata.org/node/7843).
+  Study](https://vizhub.healthdata.org/gbd-results/?params=gbd-api-2019-public/c896c16b3ce69e85653c71c75e780f64).
 
 - GDP per capita by country 1990-2019 from [World Bank
   data](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?end=2019&start=1990)
