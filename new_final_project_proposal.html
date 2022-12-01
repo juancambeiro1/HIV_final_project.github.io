@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+<meta name="date" content="2022-11-28" />
+
+<title>New Final Project Proposal</title>
+
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;you@youremail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/&lt;YOUR_GH_NAME&gt;/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">New Final Project Proposal</h1>
+<h4 class="date">2022-11-28</h4>
+
+</div>
+
+
+<div id="group-members" class="section level2">
+<h2>Group members</h2>
+<ul>
+<li>Juan Cambeiro (jc5313)</li>
+<li>Jiaxin Wu (jw4007)</li>
+<li>Liping Lu (ll3407)</li>
+<li>Thirsten Stockton (tjs2193)</li>
+<li>Kiran Kui (yk2959)</li>
+</ul>
+</div>
+<div id="tentative-project-title" class="section level2">
+<h2>Tentative project title</h2>
+<p>“HIV/AIDS Trends 1990-2019”</p>
+</div>
+<div id="motivation" class="section level2">
+<h2>Motivation</h2>
+<p>Human immunodeficiency virus (HIV), which is a virus that causes
+acquired immunodeficiency syndrome (AIDS), is one of the world’s most
+pressing public health challenges. Since the time it was identified,
+tens of millions of deaths due to HIV/AIDS have occurred. HIV/AIDS is
+considered an ongoing pandemic since it is actively spreading globally,
+and it continues to wreak devastating impacts across the world, and in
+particular in low-and-middle income countries that have limited
+resources to address it. It is therefore important and timely to study
+trends in HIV/AIDS in countries across the world as well as stratified
+by sociodemographic variables to determine communities and subgroups who
+are most impacted by the disease. Furthermore, it is important to
+determine the predictors of HIV/AIDS deaths to develop targeted policies
+and legislation that can prevent or slow the spread of HIV/AIDS.</p>
+</div>
+<div id="intended-final-products" class="section level2">
+<h2>Intended final products</h2>
+<p>In order to fully assess the impact of HIV/AIDS, several final
+products will be created. First, we will create an interactive map
+showing the geographic distribution of HIV/AIDS deaths per 100k by
+country between 1990 and 2019. Next, we will create time trends
+assessing the overall global trend of HIV/AIDS deaths per 100k over time
+and as stratified by sociodemographic variables, as well as the HIV/AIDS
+death rate by country GDP per capita. Finally, we will do a regression
+analysis assessing important factors associated with HIV/AIDS.</p>
+</div>
+<div id="anticipated-data-sources" class="section level2">
+<h2>Anticipated data sources</h2>
+<p>We plan to combine a complex set of open datasets from the following
+websites:</p>
+<ul>
+<li><p>HIV/AIDS deaths data by country 1990-2019, by sex and by age
+group, from the <a
+href="https://vizhub.healthdata.org/gbd-results/?params=gbd-api-2019-public/c896c16b3ce69e85653c71c75e780f64">2019
+Global Burden of Disease Study</a>.</p></li>
+<li><p>GDP per capita by country 1990-2019 from <a
+href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?end=2019&amp;start=1990">World
+Bank data</a></p></li>
+<li><p>Population totals by country 1990-2019, which will allow for
+adjustment by population size (per 100k) from <a
+href="https://data.worldbank.org/indicator/SP.POP.TOTL">World Bank
+data</a></p></li>
+</ul>
+</div>
+<div id="planned-analysesvisualizationscoding-challenges"
+class="section level2">
+<h2>Planned analyses/visualizations/coding challenges</h2>
+<p>Planned analyses:</p>
+<ul>
+<li>Regression model investigating the association between HIV/AIDS
+deaths per 100k and year, sex, age, interaction of age and sex, and GDP
+per capita.</li>
+</ul>
+<p>Visualizations:</p>
+<ul>
+<li>Global trend of HIV deaths over time</li>
+<li>Global trend of HIV deaths by GENDER over time</li>
+<li>Global trend of HIV deaths by AGE over time</li>
+<li>HIV deaths by country GDP</li>
+<li>Countries with the most HIV deaths across the years (interactive
+graph)</li>
+</ul>
+<p>Coding challenges:</p>
+<ul>
+<li>Constructing an interactive map owing the geographic distribution of
+HIV/AIDS deaths per 100k by country between 1990 and 2019</li>
+</ul>
+</div>
+<div id="timeline" class="section level2">
+<h2>Timeline</h2>
+<ul>
+<li>11/15-11/18: Project Review Meeting</li>
+<li>11/28-11/30: Merge and do exploratory analysis of HIV/AIDS, GDP per
+capita, and population size datasets.</li>
+<li>12/1-12/5: Analysis/visualization</li>
+<li>12/6-12/9: Construct report and generate webpage/screencast</li>
+<li>12/10: Finishing touches, report due</li>
+<li>12/15: “In class” discussion of projects</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
