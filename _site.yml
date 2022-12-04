@@ -1,14 +1,12 @@
-name: "Yay internet!"
+name: "Yay interne!"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+    - text: "Visualizations"
+      href: visualizations.html
     - icon: fa-github fa-lg
-      href: http://github.com/juancambeiro1/HIV_final_project.github.io/
+      href: https://github.com/juancambeiro1/HIV_final_project.github.io/
 output:
   html_document:
-    theme: cerulean
+    theme: cerulean 
